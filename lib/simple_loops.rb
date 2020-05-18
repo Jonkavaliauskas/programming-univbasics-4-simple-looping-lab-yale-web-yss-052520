@@ -22,7 +22,7 @@ end
 def output_array(array)
   counter = 0
  
-  while counter < n do
+  while array[counter] do
     puts string
     counter += 1
   end
